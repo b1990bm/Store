@@ -12,7 +12,11 @@
 .image {
   width: 450px;
 }
-
+.content {
+  display: flex;
+  flex-direction: column;
+  
+}
 .textContainer {
   text-align: left;
   margin-left: 30px;
@@ -46,6 +50,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 5px 50px;
 }
 
 .price {
